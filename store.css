@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+#navbar{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    height: 30px;
+    background-color: teal;
+    justify-content: space-between;
+}
+#navbar>div{
+    display: flex;
+    gap: 20px;
+}
+
+#form{
+    text-align: center;
+}
+
+#container{
+    margin-top: 1rem;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#container>div{
+    text-align: center;
+}
